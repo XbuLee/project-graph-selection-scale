@@ -4,7 +4,7 @@
 
 ## 安装与操作
 
-用 Project Graph 打开 `dist/local.selection-scale.prg`，在扩展页面点击“安装”。若快捷键尚未出现，在“设置 → 扩展”点击“重载扩展”。
+从 [GitHub Releases](https://github.com/XbuLee/project-graph-selection-scale/releases) 下载 `local.selection-scale.prg`，用 Project Graph 打开，在扩展页面点击“安装”。开发者本地打包后的文件位于 `dist/`。若快捷键尚未出现，在“设置 → 扩展”点击“重载扩展”。
 
 结束文字编辑，框选需要缩放的节点，再**依次**按下以下按键（不是同时按）：
 
@@ -22,7 +22,7 @@
 
 直接发送 `dist/选区等比缩放-v1.0.0-分享包.zip`。对方解压后，用 Project Graph 打开其中的 `local.selection-scale.prg` 并安装；`选区缩放示例.prg` 是练习用的图，不能作为插件安装。分享包中的 `使用说明.md` 写有完整操作步骤，不需要 Node.js 或源码。
 
-发布到 GitHub 时，解压 `dist/selection-scale-v1.0.0-source.zip`，将内容作为独立仓库根目录。源码目录的 `PUBLISHING.md` 说明发布流程，`.github/workflows/release.yml` 可在推送版本标签后自动发布安装包、分享包和源码包。本地已准备好发布文件，尚未创建公开仓库或 Release。
+安装包、分享包和源码包统一从 [GitHub Releases](https://github.com/XbuLee/project-graph-selection-scale/releases) 获取。源码目录的 `PUBLISHING.md` 说明发布流程，`.github/workflows/release.yml` 在推送 `v*` 版本标签后自动发布；仅推送 `main` 或重新运行分支检查不会创建 Release。
 
 ## 行为
 

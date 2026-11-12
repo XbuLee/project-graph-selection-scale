@@ -30,4 +30,4 @@
 - 分享包里的示例为原始比例：默认 32 号字、横向间距 400、纵向间距 240、圆弧偏移 100。
 - 打包前后，本机已编辑示例图的 SHA-256 一致，未覆盖练习结果。
 - `RELEASE_TAG=v1.0.0` 打包成功；不匹配的 `v0.0.0` 被明确拒绝。主工程类型检查再次通过。
-- GitHub Actions 文件已准备；尚未在 GitHub 执行工作流或公开发布。
+- GitHub Actions 的 [main 分支检查](https://github.com/XbuLee/project-graph-selection-scale/actions/runs/43171362625) 已通过，注释数为 0。工作流使用 `checkout@v7`、`setup-node@v7` 与 Ubuntu 24.04；发布作业由 `v*` 标签触发。
