@@ -47,4 +47,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           RELEASE_TAG: ${{ github.ref_name }}
-        run: gh release create "$RELEASE_TAG" dist/local.selection-scale.prg dist/*-分享包.zip dist/*-source.zip --verify-tag --title "$RELEASE_TAG" --notes-file CHANGELOG.md
+        run: |
+          # GitHub 会移除附件文件名中的中文，中文名称放在显示标签中。
+          share_archive="dist/selection-scale-${RELEASE_TAG}-share.zip"
+          cp "dist/选区等比缩放-${RELEASE_TAG}-分享包.zip" "$share_archive"
+          gh release create "$RELEASE_TAG" dist/local.selection-scale.prg "${share_archive}#选区等比缩放分享包" dist/*-source.zip --verify-tag --title "$RELEASE_TAG" --notes-file CHANGELOG.md
