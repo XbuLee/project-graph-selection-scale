@@ -1,0 +1,59 @@
+{
+  "label": "half",
+  "factor": 0.5,
+  "nodes": [
+    {
+      "id": "scale-example-a",
+      "level": -2,
+      "rect": {
+        "_": "Rectangle",
+        "location": {
+          "_": "Vector",
+          "x": 131.49,
+          "y": 79
+        },
+        "size": {
+          "_": "Vector",
+          "x": 61.85,
+          "y": 38
+        }
+      }
+    },
+    {
+      "id": "scale-example-b",
+      "level": -2,
+      "rect": {
+        "_": "Rectangle",
+        "location": {
+          "_": "Vector",
+          "x": 331.49,
+          "y": 79
+        },
+        "size": {
+          "_": "Vector",
+          "x": 62.18,
+          "y": 38
+        }
+      }
+    },
+    {
+      "id": "scale-example-c",
+      "level": -2,
+      "rect": {
+        "_": "Rectangle",
+        "location": {
+          "_": "Vector",
+          "x": 331.49,
+          "y": 199
+        },
+        "size": {
+          "_": "Vector",
+          "x": 62.98,
+          "y": 38
+        }
+      }
+    }
+  ],
+  "arcOffset": 50,
+  "stageObjectCount": 5
+}

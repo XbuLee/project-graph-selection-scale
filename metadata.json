@@ -1,0 +1,10 @@
+{
+  "version": "2.0.0",
+  "extension": {
+    "id": "local.selection-scale",
+    "name": "选区等比缩放",
+    "version": "1.0.0",
+    "description": "围绕选区中心同步缩放节点、字号、间距和内部圆弧，保留连接关系，支持撤销。",
+    "author": "XbuLee"
+  }
+}
